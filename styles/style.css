@@ -215,6 +215,29 @@ nav{
     height: 400px;
     margin-right: 10px;
 }
+.Newsletter-img-section{
+    position: relative;
+}
+.Newsletter-img-offer{
+    padding-top: 30px;
+    width: 300px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    top:190px;
+    right:25px;
+    z-index: 1;
+    background: #FF5400;
+}
+.Newsletter-img-offer p{
+    color: #FFF;
+    padding-top: 15px;
+    font-size: 32px;
+    font-weight: 800;
+}
 /* End: Newsletter Section */
 
 /* Start: Footer Section */
