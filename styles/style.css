@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
-    max-width: 1440px;
+    max-width: 1400px;
     margin-left: 10px;
 }
 /*.......................................................................*/
@@ -54,6 +54,71 @@ nav{
 }
 /*.......................................................................*/
 /*End:- Header section style */
+/*.......................................................................*/
+
+/*.......................................................................*/
+/*Start:- Main section style */
+/*.......................................................................*/
+
+/* Start: Banner Section */
+.banner{
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid white;
+    width: 100%;
+    height: 570px;
+    background-image: url('../Images/banner.png');
+    background-repeat: no-repeat ;
+    background-size: 1365px;
+}
+#banner-title{
+    margin-top: 120px;
+    padding-top: 20px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+#banner-title-description{
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+#banner-input-section{
+    margin-top: 40px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 10px;
+}
+#banner-input-section input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+}
+#banner-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    border-radius: 8px;
+    border: 0;
+    padding: 5px;
+    background-color: #FF5400;
+    width: 174px;
+    height: 52px;
+}
+#banner-btn img{
+    padding-right: 15px;
+    width: 20px;
+    height: 20px;
+}
+/*.......................................................................*/
+/*End:- Main section style */
 /*.......................................................................*/
 
 /*.......................................................................*/
