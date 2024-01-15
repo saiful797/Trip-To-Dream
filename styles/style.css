@@ -121,6 +121,7 @@ nav{
 /*Start: Our Popular Tours section */
 .popular-tour-section{
     width: 100%;
+    margin-right: 10px;
     border: 1px solid red;
     margin-top: 50px;
     display: flex;
@@ -155,7 +156,6 @@ nav{
     background: #FF5400;
     border: none;
 }
-
 .popular-tour-section img{
     width: 540px;
     height: 550px;
@@ -246,7 +246,14 @@ nav{
         height: 55px;
     }
     /*Start: banner section */
-    
+    .popular-tour-section{
+        flex-direction: column;
+    }
+    .popular-tour-section img{
+        width: 410px;
+        height: 450px;
+        margin-top: 20px;
+    }
     /*Start: Our Popular Tours section */
     
 }
