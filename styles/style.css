@@ -235,7 +235,7 @@ footer{
 /*.......................................................................*/
 
 /* For Mobile Devices */
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     /*Start: nav section */
     nav{
         display: flex;
@@ -264,7 +264,7 @@ footer{
         background-image: url('../Images/icons/menu-bar.png');
     }
     /*End: nav section */
-
+/*.......................................................................*/
     /*Start: banner section */
     .banner{
         display: flex;
@@ -305,7 +305,7 @@ footer{
         height: 55px;
     }
     /*End: banner section */
-
+/*.......................................................................*/
     /*Start: Our Popular Tours section */
     .popular-tour-section{
         flex-direction: column;
@@ -320,7 +320,7 @@ footer{
         margin-top: 20px;
     }
     /*End: Our Popular Tours section */
-
+/*.......................................................................*/
     /* Start: Footer Section */
     footer{
         padding-left: 5px;
@@ -335,6 +335,7 @@ footer{
     .footer-logo-and-title span{
         font-weight: 700;
     }
+    /* End: Footer Section */
 }
 
 /*.......................................................................*/
