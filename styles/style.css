@@ -162,6 +162,53 @@ nav{
 }
 /*End: Our Popular Tours section */
 
+/* Start: Newsletter Section */
+.Newsletter{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.Newsletter-description{
+    padding:20px;
+    width: 450px;
+    height: 350px;
+    border-radius: 15px;
+    border: 1px solid #FF5400;
+}
+.Newsletter-description h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.Newsletter-description p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Newsletter-input{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.Newsletter-input input{
+    width: 393px;
+    height: 52px;
+    border: 0;
+    border-radius: 10px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.Newsletter-input .Newsletter-btn{
+    background: #FF5400;
+}
+.Newsletter img{
+    width: 672px;
+    height: 422px;
+}
+/* End: Newsletter Section */
+
 /* Start: Footer Section */
 footer{
     text-align: center;
