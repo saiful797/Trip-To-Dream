@@ -89,7 +89,6 @@ nav{
     margin-top: 40px;
     display: inline-flex;
     padding: 16px;
-    align-items: flex-start;
     gap: 24px;
     background: rgba(255, 255, 255, 0.30);
     border-radius: 10px;
@@ -127,6 +126,7 @@ nav{
 
 /* For Mobile Devices */
 @media screen and (max-width:576px) {
+    /*Start: nav section */
     nav{
         display: flex;
         justify-content: center;
@@ -153,6 +153,48 @@ nav{
         background-repeat: no-repeat;
         background-image: url('../Images/icons/menu-bar.png');
     }
+    /*End: nav section */
+
+    /*Start: banner section */
+    .banner{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        border-radius: 25px 25px 0px 25px;
+        height: 550px;
+
+    }
+    #banner-title{
+        margin-top: 50px;
+        padding-top: 20px;
+        color: #FFF;
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    #banner-input-section{
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 50px;
+        gap: 20px;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner-input-section input{
+        width: 150px;
+        height: 45px;
+        border-radius: 8px;
+        border: none;
+    }
+
+    #banner-btn{
+        width: 150px;
+        height: 45px;
+    }
+    
 }
 
 /*.......................................................................*/
