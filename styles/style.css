@@ -206,6 +206,7 @@ nav{
 .Newsletter img{
     width: 672px;
     height: 422px;
+    margin-right: 10px;
 }
 /* End: Newsletter Section */
 
@@ -383,6 +384,26 @@ footer{
         font-weight: 700;
     }
     /* End: Footer Section */
+
+    /* start: Newsletter Section */
+    .Newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+    .Newsletter-description{
+        padding:15px;
+        width: 380px;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    .Newsletter-input input{
+        width: 340px;
+        height: 45px;
+    }
+    .Newsletter img{
+        width: 400px;
+        height: 400px;
+    }
 }
 
 /*.......................................................................*/
