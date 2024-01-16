@@ -162,6 +162,48 @@ nav{
 }
 /*End: Our Popular Tours section */
 
+/* Start: A Simple Perfect Place To Get Lost */
+.simple-perfect-place{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.simple-perfect-place-description{
+    width: 900px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple-perfect-place-description h3{
+    width: 450px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.simple-perfect-place-description p{
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.simple-perfect-place-description>ul>li{
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+.out-mountain{
+    margin-left:220px;
+    width: 1000px;
+    height: 500px;
+    background-image: url('../Images/Group40089.png');
+    background-repeat: no-repeat;
+}
+/* End: A Simple Perfect Place To Get Lost */
+
 /* Start: Newsletter Section */
 .Newsletter{
     padding-top: 50px;
