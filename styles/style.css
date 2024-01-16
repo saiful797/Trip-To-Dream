@@ -164,16 +164,15 @@ nav{
 
 /* Start: A Simple Perfect Place To Get Lost */
 .simple-perfect-place{
-    padding-top: 50px;
+    padding-top: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .simple-perfect-place-description{
+    padding-top: 70px;
     width: 900px;
     height: 500px;
-    justify-content: center;
-    align-items: center;
 }
 
 .simple-perfect-place-description h3{
@@ -201,6 +200,15 @@ nav{
     height: 500px;
     background-image: url('../Images/Group40089.png');
     background-repeat: no-repeat;
+}
+.out-mountain p{
+    padding-top: 30%;
+    margin-left: 25%;
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
 }
 /* End: A Simple Perfect Place To Get Lost */
 
