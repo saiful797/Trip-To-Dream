@@ -504,6 +504,68 @@ nav{
 }
 /* End: Newsletter Section */
 /*.............................................................................................*/
+/* Start: Quick Facts About Us Section  */
+.facts-about{
+    padding-top: 30px;
+    text-align: center;
+}
+.facts-about h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.facts-about p{
+    margin-left: 500px;
+    width:400px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.quick-facts-about-us{
+    padding-top: 30px;
+    width:1400px;
+}
+.quick-facts-description{
+    display: flex;
+    position: relative;
+    padding-top: 30px;
+
+}
+.quick-facts-description img{
+    width: 600px;
+    height: 560px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(112, 17, 17);
+    box-shadow: 0px 10px 10px 10px rgba(95, 95, 27, 0.614);
+    position: absolute;
+    top:0;
+    left:800px;
+}
+
+.about-us{
+    width: 750px;
+    height: 500px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: -5px 5px 5px 10px #c8a89c;
+}
+.about-us h3{
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.about-us p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #5A5A5D;
+}
+/* <End: Quick Facts About Us Section */
+/*.............................................................................................*/
 /* Start: Footer Section */
 footer{
     text-align: center;
