@@ -161,6 +161,212 @@ nav{
     margin-right: 45px;
 }
 /*End: Our Popular Tours section */
+
+/*.......................................................................*/   
+/* start: Deals & Discounts */
+.deals-discount-description h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals-discount-description p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+/* Section 1 */
+.discount-page1{
+    position: relative;
+    width: 1400px;
+    height: 600px;
+    background-image: url('../Images/Group39.png');
+    background-repeat: no-repeat;
+    background-size: 1360px;
+}
+.discount-description1{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.discount-description1 h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.discount-description-img1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FF5400;
+}
+.area-discount-description1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -10px;
+    display: flex;
+    align-items: start;
+}
+
+#discount-description1{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#discount-price1{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+#discount-btn1{
+    width: 150px;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top:20px;
+    margin-left: 0;
+    border: 0;
+    color: #FFF;
+    background: #FF5400;
+}
+
+/* section 2 */
+.discount-page2{
+    position: relative;
+    width: 1400px;
+    height: 600px;
+    background-image: url('../Images/Group39.png');
+    background-repeat: no-repeat;
+    background-size: 1360px;
+}
+.discount-description2{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.discount-description2 h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.discount-description-img2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FF5400;
+}
+.area-discount-description2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -10px;
+    display: flex;
+    align-items: start;
+}
+
+#discount-description2{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#discount-price2{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+#discount-btn2{
+    width: 150px;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top:20px;
+    margin-left: 0;
+    border: 0;
+    color: #FFF;
+    background: #FF5400;
+}
+/* section 3 */
+.discount-page3{
+    position: relative;
+    width: 1400px;
+    height: 600px;
+    background-image: url('../Images/Group40.png');
+    background-repeat: no-repeat;
+    background-size: 1360px;
+}
+.discount-description3{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.discount-description3 h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.discount-description-img3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FF5400;
+}
+.area-discount-description3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -10px;
+    display: flex;
+    align-items: start;
+}
+
+#discount-description3{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#discount-price3{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+#discount-btn3{
+    width: 150px;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top:20px;
+    margin-left: 0;
+    border: 0;
+    color: #FFF;
+    background: #FF5400;
+}
+/* End: Deals & Discounts */
 /*.............................................................................................*/
 /* Start: A Simple Perfect Place To Get Lost */
 .simple-perfect-place{
@@ -446,6 +652,13 @@ footer{
         margin-top: 20px;
     }
     /*End: Our Popular Tours section */
+/*.......................................................................*/   
+    /* start: Deals & Discounts */
+    .discount-description-img{
+        width: 20px;
+        height: 20px;
+    }
+    /* End: Deals & Discounts */
 /*.......................................................................*/   
     /* Start: A Simple Perfect Place To Get Lost */
    .simple-perfect-place{
