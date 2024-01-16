@@ -284,9 +284,9 @@ nav{
     }
     .choose-us-description{
         flex-direction: column;
-        width: 573px;
-        height: 284px;
-        padding: 20px;
+        width: 560px;
+        height: 230px;
+        padding: 30px;
         justify-content: space-between;
     }
     .hotel-img{
@@ -305,6 +305,11 @@ nav{
         border-radius: 16px;
         border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
+    }
+    .hotel-img h3,.public-service h3,.best-price h3{
+        padding-top: 15px;
+        padding-bottom: 15px;
+
     }
     .choose-us-description img{
         width: 40px;
