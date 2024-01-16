@@ -318,9 +318,8 @@ nav{
     font-size: 32px;
 }
 /* <!--End: Choose Your Destination --> */
-
 /*.......................................................................*/ 
-    /* Start: Why Choose Us  */
+/* Start: Why Choose Us  */
     .choose-us-title{
         text-align: center;
     }
@@ -688,11 +687,55 @@ footer{
         height: 40px;
     }
     /*End: Our Popular Tours section */
+/*.......................................................................*/
+    /* Start: Choose Your Destination */
+    .chose-destination{
+        margin-left: 0;
+        padding-left: 0;
+        width: 300px;
+    }
+
+    .chose-destination img{
+        width: 330px;
+        height: 280px;
+    }
+    .maldives-indonesia,.srilanka-america-kasmir,.bangladesh-bandarban{
+        flex-direction: column;
+        margin-left: -150px;
+        width: 350px;
+        padding-left: 0;
+    }
+    .maldives-indonesia #Maldives p, #Indonesia p{
+        top: 40%;
+        left: 30%;
+    }
+    .srilanka-america-kasmir #Srilanka p,#America p,#Kashmir p{
+        top: 45%;
+        left: 25%;
+    }
+    .bangladesh-bandarban #Bangladesh p, #Bandarban p{
+        top: 40%;
+        left: 25%;
+    }
+    /* End: Choose Your Destination */
 /*.......................................................................*/ 
     /* Start: Why Choose Us  */
-    .hose-us-description img{
-        width: 30px;
-        height: 30px;
+    .choose-us-section{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .choose-us-title{
+        margin-left: -20px;
+    }
+    .choose-us-description{
+        margin-left: -20px;
+        margin-bottom: 40px;
+        width: 310px;
+    }
+    .best-price{
+        padding-top: 0px;
+        margin-top: -10px;
     }
     /* End: Why Choose Us  */
 /*.......................................................................*/   
@@ -835,19 +878,19 @@ footer{
     }
 
     .Newsletter-img-offer{
-    padding-top: 10px;
-    width: 200px;
-    height: 80px;
-    transform: rotate(-19.628deg);
-    border-radius: 16px;
-    position: absolute;
-    color: #FFF;
-    text-align: center;
-    top:300px;
-    right:25px;
-    z-index: 1;
-    background: #FF5400;
-}
+        padding-top: 10px;
+        width: 200px;
+        height: 80px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        position: absolute;
+        color: #FFF;
+        text-align: center;
+        top:300px;
+        right:25px;
+        z-index: 1;
+        background: #FF5400;
+   }
     .Newsletter-img-offer p{
         padding-top: 15px;
         font-size: 20px;
