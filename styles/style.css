@@ -565,7 +565,7 @@ nav{
     font-weight: 700;
     color: #5A5A5D;
 }
-/* <End: Quick Facts About Us Section */
+/* End: Quick Facts About Us Section */
 /*.......................................................................*/
 /*End:- Main section style */
 /*.......................................................................*/
@@ -702,16 +702,16 @@ footer{
     #banner-input-section{
         flex-direction: column;
         border-radius: 10px;
-        padding: 30px;
-        margin-left: 40px;
+        padding: 10px;
+        margin-left: 30px;
         gap: 20px;
-        width: 280px;
+        width: 250px;
         justify-content: center;
         align-items: center;
     }
 
     #banner-input-section input{
-        width: 220px;
+        width: 200px;
         height: 50px;
         border-radius: 8px;
         border: none;
