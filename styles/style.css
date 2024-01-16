@@ -258,6 +258,67 @@ nav{
 }
 /* End: Deals & Discounts */
 
+
+/* Start: Choose Your Destination*/
+.description-title{
+    margin-top: 50px;
+    text-align: center;
+}
+.description-title h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.description-title p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.choose-destination-img{
+    margin-left: 140px;
+    width: 100%;
+    height: auto;
+}
+.choose-destination-img img{
+    margin: 15px;
+}
+.maldives-indonesia,.srilanka-america-kasmir,.bangladesh-bandarban{
+    display: flex;
+}
+.maldives-indonesia #Maldives,#Indonesia{
+    position:relative;
+}
+.maldives-indonesia #Maldives p, #Indonesia p{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: #FFF;
+    font-size: 32px;
+}
+.srilanka-america-kasmir #Srilanka,#America ,#Kashmir{
+    position:relative;
+}
+.srilanka-america-kasmir #Srilanka p,#America p,#Kashmir p{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    color: #FFF;
+    font-size: 32px;
+}
+.bangladesh-bandarban #Bangladesh,#Bandarban{
+    position:relative;
+}
+.bangladesh-bandarban #Bangladesh p, #Bandarban p{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: #FFF;
+    font-size: 32px;
+}
+/* <!--End: Choose Your Destination --> */
+
 /*.......................................................................*/ 
     /* Start: Why Choose Us  */
     .choose-us-title{
