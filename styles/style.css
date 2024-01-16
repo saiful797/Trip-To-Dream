@@ -257,6 +257,60 @@ nav{
     background: #FF5400;
 }
 /* End: Deals & Discounts */
+
+/*.......................................................................*/ 
+    /* Start: Why Choose Us  */
+    .choose-us-title{
+        text-align: center;
+    }
+    .choose-us-title h3{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        color: #131318;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .choose-us-title p{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    .choose-us-section
+    {
+        display: flex;
+        justify-content:space-evenly;
+        padding-top: 20px;
+    }
+    .choose-us-description{
+        flex-direction: column;
+        width: 573px;
+        height: 284px;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .hotel-img{
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+    .public-service{
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+    }
+    .best-price{
+        margin-top: 30px;
+        margin-left: 400px;
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+    }
+    .choose-us-description img{
+        width: 40px;
+        height:40px;
+    }
+    /* End: Why Choose Us  */
 /*.............................................................................................*/
 /* Start: A Simple Perfect Place To Get Lost */
 .simple-perfect-place{
@@ -568,6 +622,13 @@ footer{
         height: 40px;
     }
     /*End: Our Popular Tours section */
+/*.......................................................................*/ 
+    /* Start: Why Choose Us  */
+    .hose-us-description img{
+        width: 30px;
+        height: 30px;
+    }
+    /* End: Why Choose Us  */
 /*.......................................................................*/   
     /* start: Deals & Discounts */
     .deals-discount-description{
