@@ -429,7 +429,7 @@ nav{
 /*.............................................................................................*/
 /* Start: Newsletter Section */
 .Newsletter{
-    padding-top: 50px;
+    padding-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -917,6 +917,7 @@ footer{
 /*.......................................................................*/
     /* start: Newsletter Section */
     .Newsletter{
+        margin-top: 60px;
         display: flex;
         flex-direction: column;
     }
@@ -930,10 +931,12 @@ footer{
         /* margin-bottom: 20px; */
     }
     .Newsletter-input input{
+        margin-top: 20px;
         width: 280px;
         height: 40px;
     }
     .Newsletter img{
+        margin-top: 80px;
         margin-left: -20px;
         width: 350px;
         height: 500px;
@@ -958,6 +961,72 @@ footer{
         font-size: 20px;
         font-weight: 600;
     }
+    /* Start: Quick Facts About Us Section */
+    .quick-facts-about-us{
+        margin-top: 60px;
+    }
+    .facts-about{
+        padding-top: 0px;
+        text-align: start;
+    }
+    .facts-about h3{
+        color: #131318;
+        font-size: 30px;
+        font-weight: 600;
+        /* padding-bottom: 20px; */
+    }
+    .facts-about p{
+        margin-left: 0px;
+        width:350px;
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .quick-facts-about-us{
+        padding-top: 30px;
+        /* width:1400px; */
+    }
+    .quick-facts-description{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    
+    }
+    .quick-facts-description img{
+        width: 350px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: -20px;
+        border-radius: 10px;
+        border: 2px solid rgb(112, 17, 17);
+        box-shadow: 0px 10px 10px 10px rgba(95, 95, 27, 0.614);
+        position: static;
+        top:110px;
+        left:0px;
+    }
+    
+    .about-us{
+        width: 350px;
+        height: 300px;
+        padding: 0px;
+        margin-left: -10px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: -5px 5px 5px 10px #c8a89c;
+    }
+    .about-us h3{
+        font-size: 40px;
+        font-weight: 400;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .about-us p{
+        font-size: 10px;
+        font-weight: 400;
+        color: #5A5A5D;
+    }
+    /* <End: Quick Facts About Us Section */
 
     /* Start: Footer Section */
     footer{
