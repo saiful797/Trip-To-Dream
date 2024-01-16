@@ -648,6 +648,8 @@ footer{
 @media screen and (max-width:600px) {
     /*Start: nav section */
     nav{
+        margin-left: -5px;
+        padding-right: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -679,7 +681,7 @@ footer{
     /*Start: banner section */
     .banner{
         margin-top: 0;
-        margin-left: -10px;
+        margin-left: -15px;
         display: flex;
         flex-direction: column;
         border-radius: 25px;
@@ -722,9 +724,9 @@ footer{
 /*.......................................................................*/
     /*Start: Our Popular Tours section */
     .popular-tour-section{
-        width: 100%;
+        width: 400px;
         margin-top: -30px;
-        margin-left: -20px;
+        margin-left: -5px;
         display: flex;
         justify-content: space-between;
     }
@@ -738,13 +740,13 @@ footer{
         color: rgba(19, 19, 24, 0.70);
         font-size: 16px;
     }
-    
     .popular-tour-section{
         flex-direction: column;
     }
     .popular-tour-section img{
         width: 390px;
         height: 450px;
+        margin-left: -5px;
         margin-top: 20px;
     }
     .popular-tour-btn{
@@ -758,13 +760,13 @@ footer{
 /*.......................................................................*/
     /* Start: Choose Your Destination */
     .chose-destination{
-        margin-left: 0;
-        padding-left: 0;
-        width: 300px;
+        margin-left: -5px;
+        padding: 10px;
+        width: 380px;
     }
 
     .chose-destination img{
-        width: 330px;
+        width: 350px;
         height: 280px;
     }
     .maldives-indonesia,.srilanka-america-kasmir,.bangladesh-bandarban{
@@ -788,29 +790,39 @@ footer{
     /* End: Choose Your Destination */
 /*.......................................................................*/ 
     /* Start: Why Choose Us  */
+    .choose-us{
+        margin-left: -5px;
+        padding-right: -5px;
+        width: 400px;
+    }
     .choose-us-section{
         display: flex;
         flex-direction: column;
         padding-bottom: 30px;
+        width: 320px;
     }
     .choose-us-title{
         margin-left: -20px;
     }
     .choose-us-description{
-        margin-left: -20px;
+        margin-left: -10px;
         margin-bottom: 40px;
         width: 310px;
     }
     .best-price{
+        margin-left: 5px;
         padding-top: 0px;
-        margin-top: -10px;
+        margin-top: 0px;
     }
     /* End: Why Choose Us  */
 /*.......................................................................*/   
     /* start: Deals & Discounts */
+    .deals-discount{
+        margin-left: 0;
+    }
     .deals-discount-description{
-        margin-left: -10px;
-        width: 350px;
+        margin-left: -15px;
+        width: 397px;
     }
     .deals-discount-description h3{
         padding-top: 10px;
@@ -861,9 +873,10 @@ footer{
         font-size: 10px;
     }
     /* End: Deals & Discounts */
-/*.......................................................................*/   
+ /*.......................................................................*/   
     /* Start: A Simple Perfect Place To Get Lost */
     .simple-perfect-place{
+        margin-left: 0;
         padding-top: 5px;
         display: flex;
         justify-content: space-between;
@@ -920,7 +933,7 @@ footer{
         font-weight: 700;
     }
    /*End: A Simple Perfect Place To Get Lost */
-/*.......................................................................*/
+ /*.......................................................................*/
     /* start: Newsletter Section */
     .Newsletter{
         margin-top: 60px;
@@ -957,7 +970,7 @@ footer{
         position: absolute;
         color: #FFF;
         text-align: center;
-        top:300px;
+        top:400px;
         right:25px;
         z-index: 1;
         background: #FF5400;
@@ -969,7 +982,10 @@ footer{
     }
     /* Start: Quick Facts About Us Section */
     .quick-facts-about-us{
-        margin-top: 60px;
+        /* margin-top: 60px; */
+        width:370px;
+        padding-left: 15px;
+        margin-right: 0;    
     }
     .facts-about{
         padding-top: 0px;
@@ -1036,7 +1052,6 @@ footer{
 
     /* Start: Footer Section */
     footer{
-        
         margin-left: 10px;
         padding-left: 0;
         width: 95%;
