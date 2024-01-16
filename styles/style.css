@@ -468,21 +468,22 @@ footer{
     .nav-logo-and-title{
         width: 300px;
         height: 40px;
-        margin-left: 7px;
+        margin-left: 3px;
     }
     .nav-logo-and-title h3{
         color: #131318;
-        font-size: 1.8rem;
-        font-weight: 700;
+        font-size: 1.4rem;
+        font-weight: 600;
+        padding-top: 5px;
     }
     .nav-menu-bar ul{
         display: none;
     }
     .nav-bar-icon{
-        width: 80px;
-        height: 60px;
-        margin-left: 50px;
-        margin-top: 30px;
+        width: 70px;
+        height: 50px;
+        margin-right:-20px;
+        margin-top: 20px;
         background-repeat: no-repeat;
         background-image: url('../Images/icons/menu-bar.png');
     }
@@ -490,78 +491,141 @@ footer{
 /*.......................................................................*/
     /*Start: banner section */
     .banner{
+        margin-top: 0;
+        margin-left: -10px;
         display: flex;
         flex-direction: column;
         border-radius: 25px;
         height: 550px;
-
     }
     #banner-title{
         margin-top: 50px;
         padding-top: 20px;
         color: #FFF;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         font-weight: 800;
     }
-
+    #banner-title-description{
+        text-align: center;
+        color: #FFF;
+        font-size: 16px;
+    }
     #banner-input-section{
         flex-direction: column;
         border-radius: 10px;
         padding: 10px;
-        margin-left: 50px;
-        gap: 20px;
-        width: 300px;
+        margin-left: 20px;
+        gap: 10px;
+        width: 280px;
         justify-content: center;
         align-items: center;
     }
 
     #banner-input-section input{
-        width: 230px;
-        height: 55px;
+        width: 220px;
+        height: 50px;
         border-radius: 8px;
         border: none;
     }
-
     #banner-btn{
-        width: 230px;
-        height: 55px;
+        width: 220px;
+        height: 50px;
     }
     /*End: banner section */
 /*.......................................................................*/
     /*Start: Our Popular Tours section */
     .popular-tour-section{
-        flex-direction: column;
+        width: 100%;
+        margin-top: -30px;
+        margin-left: -20px;
+        display: flex;
+        justify-content: space-between;
     }
-
-    .popular-tour-description{
-        width: 90%;
+    .popular-tour-description h3{
+        padding-bottom: 20px;
+        color: #131318;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .tour-description-section{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+    }
+    
+    .popular-tour-section{
+        flex-direction: column;
     }
     .popular-tour-section img{
         width: 410px;
         height: 450px;
         margin-top: 20px;
     }
+    .popular-tour-btn{
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 700;
+        width: 150px;
+        height: 40px;
+    }
+    .popular-tour-section img{
+        width: 350px;
+        height: 530px;
+        margin-right: 45px;
+    }
     /*End: Our Popular Tours section */
 /*.......................................................................*/   
     /* start: Deals & Discounts */
+    .deals-discount-description{
+        margin-left: -10px;
+        width: 350px;
+    }
+    .deals-discount-description h3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #131318;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .deals-discount-description p{
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
     .discount-page1,.discount-page2,.discount-page3{
         position: relative;
-        width: 400px;
-        height: 800px;
+        width: 320px;
+        height: 900px;
         border-radius: 16px;
         background-size: 1000px;
-        margin-bottom: -350px;
+        margin-bottom: -450px;
     }
     .discount-description1,.discount-description2,.discount-description3{
         position: absolute;
         top: 10px;
         left: 5px;
-        width: 320px;
+        width: 280px;
         height: 350px;
         border-radius: 16px;
         border: 2px solid #FFF;
         background: rgba(255, 255, 255, 0.80);
-        backdrop-filter: blur(2px);
+    }
+    .area-discount-description{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: -10px;
+        display: flex;
+        align-items: start;
+    }
+    .discount-description-img{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #FF5400;
+    }
+    .discount-description-img p{
+        font-size: 10px;
     }
     /* End: Deals & Discounts */
 /*.......................................................................*/   
