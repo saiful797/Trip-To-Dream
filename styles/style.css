@@ -88,16 +88,32 @@ nav{
 #banner-input-section{
     margin-top: 40px;
     display: inline-flex;
-    padding: 16px;
-    gap: 24px;
+    padding: 15px;
+    gap: 20px;
     background: rgba(255, 255, 255, 0.30);
     border-radius: 10px;
 }
 #banner-input-section input{
     width: 174px;
     height: 52px;
+    padding-left: 10px;
     border-radius: 8px;
     border: none;
+}
+.submit-button{
+    padding-left: 0;
+    margin-left: 0;
+    position: relative;
+}
+
+.submit-button img {
+    position: absolute;
+    top: 17px;
+    right: 13px;
+}
+.submit-button img{
+    width: 18px;
+    height: 18px; 
 }
 #banner-btn{
     display: flex;
@@ -106,14 +122,15 @@ nav{
     color: #FFF;
     border-radius: 8px;
     border: 0;
-    padding: 10px;
+    padding-right: 15px;
     background-color: #FF5400;
     font-size: 20px;
     width: 174px;
     height: 52px;
 }
 #banner-btn img{
-    padding-right: 15px;
+    padding-top: 11px;
+    padding-right: 25px;
     width: 20px;
     height: 20px;
 }
@@ -714,11 +731,12 @@ footer{
     #banner-input-section input{
         width: 200px;
         height: 50px;
+        padding-left: 10px;
         border-radius: 8px;
         border: none;
     }
     #banner-btn{
-        width: 220px;
+        width: 200px;
         height: 50px;
     }
     /*End: banner section */
